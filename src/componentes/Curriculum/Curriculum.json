@@ -1,0 +1,39 @@
+{
+    "quemSou": " Me chamo Eduardo e tenho 17 anos, terminei o ensino medio, estou buscando conhecimento em diversas áres, pois gosto muito de aprender algo novo. Atualmente trabalho como jovem aprendiz na área de administração, e estudo desenvovimento de software ",
+    "formação": [
+        {
+            "titulo": "Assistente administrativo",
+            "descrição": "",
+            "dataInicio": "2023",
+            "dataFim": " "
+            
+        },
+
+        {
+            "titulo": "Ensino médio",
+            "descrição": "",
+            "dataInicio": "",
+            "dataFim": "2022 "
+            
+        }
+
+
+       
+    ],
+
+    "habilidades": [
+        {
+            "titulo": "Criativo"
+        },
+
+        {
+            "titulo": "Organizado"
+        },
+
+        {
+            "titulo": "Pensamento Crítico"
+        }
+    
+    ]
+   
+}

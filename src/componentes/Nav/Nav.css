@@ -1,0 +1,30 @@
+nav{
+    background-color: #A65BD9;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;  
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 30px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 400px)  {
+    nav ul li  {
+        display: inline-block;
+        margin: 15px
+    } 
+    
+}

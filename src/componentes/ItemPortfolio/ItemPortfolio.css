@@ -1,0 +1,10 @@
+.item-portifolio {
+    display: inline-block;
+    margin: 3%;
+    border: 3px solid #5B2B7A; 
+    border-radius: 25px;
+}
+
+.item-portifolio a{
+    text-decoration: none;
+}
