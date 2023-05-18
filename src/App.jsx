@@ -30,12 +30,12 @@ function App() {
         cargo: informacao.data.cargo
       });
 
-      const experienciaAcademica = await api.get('/experiencias?tipo=academica');
-      const experienciaProfissional = await api.get('/experiencias?tipo=profissional');
+      const experiencia = await api.get('/experiencias?tipo=experiencia');
+      const habilidade = await api.get('/experiencias?tipo=habilidade');
       setCurriculo({
         resumo: informacao.data.resumo,
-        experienciaAcademica: experienciaAcademica.data,
-        experienciaProfissional: experienciaProfissional.data
+        experiencia: experiencia.data,
+        habilidade: habilidade.data
       });
 
      

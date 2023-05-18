@@ -7,9 +7,9 @@ import data from "./Curriculum.json";
 
 
 function Curriculum(props) {
-    const { resumo, Experiencia, Habilidade } = props.curriculo
+    const { resumo, experiencia, habilidade } = props.curriculo
 
-    if (!resumo || !Experiencia || !Habilidade) {
+    if (!resumo || !experiencia || !habilidade) {
         return <p>Carregando...</p>
     }
 
@@ -25,7 +25,7 @@ function Curriculum(props) {
             <section>
                 <h2>Formação</h2>
                 <ul>
-                    {Experiencia.map((item, index) => (
+                    {experiencia.map((item, index) => (
                         <li key={index}>
                             <b>({item.anoInicio} - {item.anoFim} )</b> {item.titulo};
                         </li>
@@ -36,7 +36,7 @@ function Curriculum(props) {
             <section>
                 <h2>Habilidades</h2>
                 <ul>
-                {Habilidade.map((item, index) => (
+                {habilidade.map((item, index) => (
                     <li key={index}>
                         <b> {item.titulo};</b>
                     </li>
