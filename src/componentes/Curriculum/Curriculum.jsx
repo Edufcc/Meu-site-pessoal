@@ -2,7 +2,6 @@ import React from "react";
 
 import "./Curriculum.css";
 
-import data from "./Curriculum.json";
 
 
 
