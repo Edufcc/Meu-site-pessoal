@@ -38,7 +38,7 @@ function Curriculum(props) {
                 <ul>
                 {habilidade.map((item, index) => (
                     <li key={index}>
-                        <b> {item.titulo};</b>
+                       <b>({item.anoInicio} - {item.anoFim} )</b> {item.titulo};
                     </li>
                     ))}
                 </ul>
