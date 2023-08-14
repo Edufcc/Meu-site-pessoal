@@ -22,7 +22,7 @@ function Curriculum(props) {
             </section>
     
             <section>
-                <h2>Formação</h2>
+                <h2>Experiências</h2>
                 <ul>
                     {experiencia.map((item, index) => (
                         <li key={index}>
@@ -33,11 +33,11 @@ function Curriculum(props) {
             </section>
     
             <section>
-                <h2>Habilidades</h2>
+                <h2>Soft Skills</h2>
                 <ul>
                 {habilidade.map((item, index) => (
                     <li key={index}>
-                       <b>({item.anoInicio} - {item.anoFim} )</b> {item.titulo};
+                       <b></b> {item.titulo};
                     </li>
                     ))}
                 </ul>

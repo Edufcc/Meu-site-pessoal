@@ -8,3 +8,8 @@
 .item-portifolio a{
     text-decoration: none;
 }
+
+img {
+    width: 250px;
+    height: 250px;
+}
