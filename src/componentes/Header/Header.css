@@ -5,8 +5,8 @@ text-align: center;
 color: white;
 }
 
-header img {
+.profilePic {
     border-radius: 50%;
-    width: 120px;
-    height: 135px;
+    width: 150px;
+    height: 150px;
 }
