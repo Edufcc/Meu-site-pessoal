@@ -30,7 +30,7 @@ function Contact() {
         let telefoneFormatado = textoApenasNumeros.replace(/^(\d{2})(\d{5})(\d{4})/, '($1) $2-3');
 
         if (textoApenasNumeros.length < 11) {
-            telefoneFormatado =  textoApenasNumeros.replace(/^(\d{2})(\d{4})(\d{4})/, '($1) $2-3');
+            telefoneFormatado =  textoApenasNumeros.replace(/^(\d{2})(\d{5})(\d{4})/, '($1) $2-3');
         }
 
         setTelefone(telefoneFormatado);

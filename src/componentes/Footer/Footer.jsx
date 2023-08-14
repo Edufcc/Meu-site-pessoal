@@ -11,7 +11,7 @@ function Footer() {
 
         <a href="https://www.instagram.com/edufc_/" target="_blank" rel="noopener noreferrer">
             <img src={insta} alt="imagem do instagram"/>
-            <span>Instagram</span>g
+            <span>Instagram</span>
         </a>
 
         <a href="https://github.com/Edufcc" target="_blank" rel="noopener noreferrer">
